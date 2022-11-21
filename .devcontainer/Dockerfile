@@ -45,3 +45,6 @@ RUN git clone https://github.com/fmtlib/fmt && \
 
 # Clean up
 RUN rm -rf fmt
+
+# Install clangd (for vsc clangd extenstion)
+RUN apt-get install clangd-12
