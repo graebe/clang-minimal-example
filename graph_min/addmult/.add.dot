@@ -1,0 +1,5 @@
+digraph "CFG for 'add' function" {
+	label="CFG for 'add' function";
+
+	Node0x86f700 [shape=record,label="{%2}"];
+}

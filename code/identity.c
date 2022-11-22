@@ -1,4 +1,6 @@
-void identity(int** a, int N) {
+int main () {
+    int N = 10;
+    int a[N][N];
     int i, j;
     for (i=0; i<N; i++) {
         for (j=0; j<N; j++) {
